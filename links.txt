@@ -1,0 +1,18 @@
+Links
+
+API Reference
+https://developers.google.com/civic-information
+
+https://developers.google.com/civic-information/docs/v2
+
+Generate API Key
+https://console.cloud.google.com/apis/credentials
+
+Privacy Policy
+https://policies.google.com/privacy?hl=en-US
+
+Postman
+https://web.postman.co/
+
+Random Address for Testing
+https://www.mapquest.com/us/texas/the-address-377059898

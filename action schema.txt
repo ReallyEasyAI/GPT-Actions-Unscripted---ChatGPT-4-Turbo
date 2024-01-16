@@ -1,0 +1,25 @@
+openapi: 3.1.0
+info:
+  title: Get Voter Representative Information
+  description: Obtains voter rep information from the Google Civic API
+  version: v0.0.7
+servers:
+  - url: https://www.googleapis.com/civicinfo/v2
+paths:
+  /representatives:
+    get:
+      description: Gets the rep information by address
+      operationId: GetRepInfo
+      parameters:
+        - name: key
+          in: query
+          description: API key used for query
+          required: true
+          schema:
+            type: string
+        - name: address
+          in: query
+          description: Address of the voter
+          required: true
+          schema:
+            type: string
